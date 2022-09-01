@@ -1,0 +1,15 @@
+:root {
+  --main-color: var(--off-white-color);
+  --grey-color: #d3d3d3;
+  --dark-grey-color: #808080;
+  --white-color: #ffffff;
+  --off-white-color: #faf9f6;
+  --charcoal-color: #36454f;
+  --button-color: #4957ed;
+  --red-accent: #ee2935;
+}
+
+body {
+  background: var(--main-color);
+  color: var(--charcoal-color);
+}
