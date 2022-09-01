@@ -18,8 +18,9 @@
   --black-color: #353935;
   --off-white-color: #faf9f6;
   --charcoal-color: #36454f;
-  --button-color: #4957ed;
-  --red-accent: #ee2935;
+  --button-color: #4169e1;
+  --button-secondary-color: #4682b4;
+  --red-accent: #fa5f55;
 
   --transition: all 400ms ease;
 
@@ -83,39 +84,53 @@ section > h2 {
 }
 
 a {
-  color: var(--white-color);
+  color: var(--charcoal-color);
   transition: var(--transition);
 }
 
 a:hover {
-  color: var(--red-accent);
+  color: var(--button-color);
 }
 
 .btn {
   width: max-content;
   display: inline-block;
   color: var(--white-color);
+  background: var(--button-color);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
-  border: 1px solid var(--button-color);
+
   transition: var(--transition);
 }
 
 .btn:hover {
-  background: var(--button-color);
+  background: var(--charcoal-color);
   color: var(--white-color);
-  border-color: transparent;
+
+  border-color: 1px solid var(--white-color);
+}
+
+.social-btn {
+  width: max-content;
+  display: block;
+  cursor: pointer;
+  transition: var(--transition);
 }
 
 .btn-primary {
-  background: var(--charcoal-color);
+  background: var(--red-accent);
   color: var(--white-color);
 }
 
 img {
   display: block;
   width: 100%;
+  object-fit: cover;
+}
+
+.social-icons img {
+  width: 5%;
   object-fit: cover;
 }
 
