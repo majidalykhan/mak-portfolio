@@ -14,12 +14,13 @@
   --main-color: var(--off-white-color);
   --grey-color: #d3d3d3;
   --dark-grey-color: #808080;
+  --grey-platinum-color: #e5e4e2;
   --white-color: #ffffff;
   --black-color: #353935;
   --off-white-color: #faf9f6;
   --charcoal-color: #36454f;
-  --button-color: #4169e1;
-  --button-secondary-color: #4682b4;
+  --primary-accent-color: #4169e1;
+  --secondary-accent-color: #4682b4;
   --red-accent: #fa5f55;
 
   --transition: all 400ms ease;
@@ -66,6 +67,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2,
@@ -96,7 +98,7 @@ a:hover {
   width: max-content;
   display: inline-block;
   color: var(--white-color);
-  background: var(--button-color);
+  background: var(--primary-accent-color);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
@@ -109,13 +111,6 @@ a:hover {
   color: var(--white-color);
 
   border-color: 1px solid var(--white-color);
-}
-
-.social-btn {
-  width: max-content;
-  display: block;
-  cursor: pointer;
-  transition: var(--transition);
 }
 
 .btn-primary {

@@ -15,8 +15,8 @@ import {
 const App = () => {
   return (
     <>
-      <Header />
       <Nav />
+      <Header />
       <About />
       <Experience />
       <Services />

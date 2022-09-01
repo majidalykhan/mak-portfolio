@@ -1,15 +1,16 @@
 import React from "react";
 
-import { images } from "../../constants";
+import { BsLinkedin } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-      <a href="" target="_blank" className="social-btn">
-        <img src={images.linkedin}></img>
+      <a href="#">
+        <BsLinkedin />
       </a>
-      <a href="" target="_blank" className="social-btn">
-        <img className="social-icons" src={images.github}></img>
+      <a href="#">
+        <FaGithub />
       </a>
     </div>
   );
