@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  height: 80vh;
   overflow: hidden;
 }
 
@@ -13,7 +13,7 @@ header {
   transform: translateY(-50%);
 }
 
-p {
+.header__container p {
   font-size: 1.5rem;
   padding-top: 3rem;
   letter-spacing: 6px;

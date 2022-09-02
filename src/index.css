@@ -76,7 +76,7 @@ section > h5 {
 }
 
 section > h2 {
-  color: var(--secondary-accent-color);
+  color: var(--charcoal-color);
   margin-bottom: 3rem;
 }
 
@@ -112,7 +112,7 @@ a:hover {
   border-color: 1px solid var(--white-color);
 }
 
-.btn-primary {
+.btn-secondary {
   background: var(--secondary-accent-color);
   color: var(--white-color);
 }
