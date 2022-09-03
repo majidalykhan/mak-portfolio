@@ -42,6 +42,7 @@
   transform: scale(1.09);
   color: var(--charcoal-color);
   transition: var(--transition);
+  cursor: default;
 }
 
 .about__icon {
