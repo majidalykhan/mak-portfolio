@@ -1,8 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 
-import { data } from "./data";
-import { images } from "../../constants/";
+import { data } from "./portfolioData";
 
 const Portfolio = () => {
   return (

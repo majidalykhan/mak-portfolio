@@ -1,0 +1,71 @@
+.container.testimonals__container {
+  width: 40%;
+}
+
+.client__avatar {
+  width: 4rem;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+}
+
+.testimonial {
+  background: var(--charcoal-color);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  user-select: none;
+}
+
+.testimonial h4,
+h5 {
+  color: var(--white-color);
+}
+
+.platform {
+  color: var(--white-color);
+  font-style: italic;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
+
+.client__review {
+  color: var(--white-color);
+  font-weight: 300;
+  display: block;
+  width: 80%;
+  margin: 0.8rem auto 0;
+}
+
+.left {
+  color: var(--white-color);
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.right {
+  color: var(--white-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* =========== MEDIA Queries (Medium devices) =========== */
+@media screen and (max-width: 1024px) {
+  .container.testimonals__container {
+    width: 60%;
+  }
+}
+
+/* =========== MEDIA Queries (Small devices) =========== */
+@media screen and (max-width: 600px) {
+  .container.testimonals__container {
+    width: var(--container-width-sm);
+  }
+
+  .client__review {
+    width: var(--container-width-sm);
+  }
+}
