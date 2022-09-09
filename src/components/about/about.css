@@ -29,24 +29,22 @@
 }
 
 .about__card {
-  background: transparent;
-  color: var(--charcoal-color);
-  border: 3px solid var(--dark-grey-color);
+  background: var(--charcoal-color);
+  color: var(--white-color);
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
 }
 
 .about__card:hover {
-  background: transparent;
-  transform: scale(1.09);
-  color: var(--charcoal-color);
+  background: var(--heading-color);
+  color: var(--white-color);
   transition: var(--transition);
   cursor: default;
 }
 
 .about__icon {
-  color: var(--primary-accent-color);
+  color: var(--white-color);
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
@@ -57,12 +55,12 @@
 
 .about__card small {
   font-size: 0.7rem;
-  color: var(--charcoal-color);
+  color: var(--white-color);
 }
 
 .about__content p {
   margin: 1rem 0 1.5rem;
-  color: var(--dark-grey-color);
+  color: var(--black-color);
   text-align: justify;
   
 }

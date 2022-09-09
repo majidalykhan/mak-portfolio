@@ -6,22 +6,22 @@
 
 .service {
   background: transparent;
-  border-radius: 0 0 2rem 2rem;
   border: 2px solid var(--charcoal-color);
+  border-radius: 0 0 2rem 2rem;
   height: fit-content;
   transition: var(--transition);
 }
 
-.service:hover {
-  background: transparent;
-  cursor: default;
-  border-color: var(--primary-accent-color);
-}
-
 .service__head {
-  background: var(--primary-accent-color);
+  background: var(--charcoal-color);
   padding: 2rem;
   border-radius: 0 0 2rem 2rem;
+}
+
+.service__head:hover {
+  background: var(--heading-color);
+  cursor: default;
+  transition: var(--transition);
 }
 
 .service__head h3 {
@@ -41,30 +41,31 @@
 }
 
 .service__list-icon {
-  color: var(--primary-accent-color);
+  color: var(--heading-color);
   margin-top: 2px;
 }
 
 .service__list p {
   font-size: 0.9rem;
+  color: var(--heading-color);
 }
 
 /* =========== MEDIA Queries (Medium devices) =========== */
 @media screen and (max-width: 1024px) {
-    .services__container{
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-    }
+  .services__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
 
-    .service{
-        height: auto;
-    }
+  .service {
+    height: auto;
+  }
 }
 
 /* =========== MEDIA Queries (Small devices) =========== */
 @media screen and (max-width: 600px) {
-    .services__container{
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-    }
+  .services__container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }

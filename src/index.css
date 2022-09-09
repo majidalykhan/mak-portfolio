@@ -11,7 +11,6 @@
 }
 
 :root {
-  --main-color: var(--off-white-color);
   --grey-color: #d3d3d3;
   --dark-grey-color: #808080;
   --grey-platinum-color: #e5e4e2;
@@ -19,8 +18,12 @@
   --black-color: #353935;
   --off-white-color: #faf9f6;
   --charcoal-color: #36454f;
-  --primary-accent-color: #4169e1;
-  --secondary-accent-color: #f66b0e;
+
+  --bg-color: #f6f6f6;
+  --heading-color:#363538;
+  --button1-color:#408697;
+  --button2-color: #52d6f4;
+
 
   --transition: all 400ms ease;
 
@@ -39,7 +42,7 @@ html {
 
 body {
   font-family: "Noto Sans", sans-serif;
-  background: var(--main-color);
+  background: var(--bg-color);
   color: var(--black-color);
   line-height: 1.7;
   /*To add background texture later */
@@ -75,7 +78,7 @@ section > h5 {
 }
 
 section > h2 {
-  color: var(--charcoal-color);
+  color: var(--heading-color);
   margin-bottom: 3rem;
 }
 
@@ -84,19 +87,20 @@ section > h2 {
 }
 
 a {
-  color: var(--charcoal-color);
+  color: var(--heading-color);
   transition: var(--transition);
 }
 
 a:hover {
-  color: var(--button-color);
+  color: var(--button1-color);
 }
 
 .btn {
   width: max-content;
   display: inline-block;
   color: var(--white-color);
-  background: var(--primary-accent-color);
+  font-weight: 400;
+  background: var(--charcoal-color);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
@@ -105,14 +109,18 @@ a:hover {
 }
 
 .btn:hover {
-  background: var(--charcoal-color);
+  background: var(--dark-grey-color);
   color: var(--white-color);
-
   border-color: 1px solid var(--white-color);
 }
 
 .btn-secondary {
-  background: var(--secondary-accent-color);
+  background: var(--dark-grey-color);
+  color: var(--white-color);
+}
+
+.btn-secondary:hover {
+  background: var(--black-color);
   color: var(--white-color);
 }
 

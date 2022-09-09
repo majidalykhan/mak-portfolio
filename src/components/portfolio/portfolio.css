@@ -7,12 +7,12 @@
 .portfolio__item {
   background: transparent;
   border-radius: 2rem;
-  border: 1px solid var(--charcoal-color);
+  border: 3px solid var(--charcoal-color);
   transition: var(--transition);
 }
 
 .portfolio__item:hover {
-  border-color: var(--primary-accent-color);
+  border-color: var(--heading-color);
   background: transparent;
 }
 
@@ -24,6 +24,7 @@
 .portfolio__item h3 {
   text-align: center;
   margin: 1.2rem 0 2rem;
+  color: var(--heading-color);
 }
 
 .portfolio__item-cta {

@@ -12,23 +12,26 @@
 }
 
 .contact__option {
-  background: var(--primary-accent-color);
+  background: var(--charcoal-color);
   padding: 1.2rem;
   border-radius: 1.2rem;
   text-align: center;
-  border: 1px solid var(--charcoal-color);
   transition: var(--transition);
   color: var(--white-color);
 }
 
-.contact__option a {
+.contact__option h5 {
   color: var(--white-color);
+}
+
+.contact__option a {
+  color: var(--grey-color);
   font-style: italic;
   transform: scale(0.3deg);
 }
 
 .contact__option a:hover {
-  color: var(--grey-color);
+  color: var(--white-color);
 }
 
 .contact__option-icon {
@@ -50,15 +53,19 @@ form {
   gap: 1.2rem;
 }
 
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    var(--heading-color);
+}
+
 input,
 textarea {
   width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
   background: transparent;
-  border: 2px solid var(--charcoal-color);
+  border: 2px solid var(--heading-color);
   resize: none;
-  color: var(--dark-grey-color);
+  color: var(--heading-color);
 }
 
 /* =========== MEDIA Queries (Medium devices) =========== */

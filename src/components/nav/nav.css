@@ -8,7 +8,7 @@ nav {
   padding: 4px;
   top: 0px;
   text-align: center;
-  width: 40%;
+  width: 60%;
   position: sticky;
   z-index: 100;
   transition: var(--transition);
@@ -16,40 +16,40 @@ nav {
 }
 
 nav a {
-  color:var(--charcoal-color);
-  text-decoration: none;
-  margin: 0px 20px;
-  font-size: 1.3rem;
+  color:var(--dark-grey-color);
+  text-decoration:none;
+  margin: 0px 25px;
+  font-size: 1rem;
 }
 
 nav a:hover {
-  color: var(--secondary-accent-color);
+  color: var(--black-color);
 }
 
 nav a.active {
-  color: var(--primary-accent-color);
+  color: var(--black-color);
 }
 
 /* =========== MEDIA Queries (Medium devices) =========== */
 @media screen and (max-width: 1024px) {
   nav {
-    width: 60%;
+    width: 95%;
   }
 
   nav a {
-    margin: 0px 25px;
-    font-size: 1.3rem;
+    margin: 0px 20px;
+    font-size: 1rem;
   }
 }
 
 /* =========== MEDIA Queries (Small devices) =========== */
 @media screen and (max-width: 600px) {
   nav {
-    width: 70%;
+    width: 90%;
   }
 
   nav a {
-    margin: 0px 15px;
-    font-size: 1.3rem;
+    margin: 0px 10px;
+    font-size: 0.8rem;
   }
 }

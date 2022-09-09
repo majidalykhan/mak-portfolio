@@ -30,7 +30,7 @@ header {
 }
 
 .content h2 {
-  color: #fff;
+  color: red;
   font-size: 5rem;
   position: fixed;
   margin-left: auto;
@@ -39,11 +39,11 @@ header {
 
 .content h2:nth-child(1) {
   color: transparent;
-  -webkit-text-stroke: 1.5px var(--grey-color);
+  -webkit-text-stroke: 1px var(--dark-grey-color);
 }
 
 .content h2:nth-child(2) {
-  color: var(--primary-accent-color);
+  color: var(--charcoal-color);
   animation: animate 7s ease-in-out infinite;
 }
 
@@ -96,21 +96,23 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
+  
 }
 
 .header__socials a {
   font-size: 1.5rem;
+  color: var(--heading-color);
 }
 
 .header__socials a:hover {
-  color: var(--secondary-accent-color);
+  color: var(--dark-grey-color);
 }
 
 .header__socials:after {
   content: "";
   width: 1px;
   height: 2rem;
-  background: var(--charcoal-color);
+  background: var(--heading-color);
 }
 
 /* =========== Profile image =========== */

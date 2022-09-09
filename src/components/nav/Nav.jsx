@@ -19,35 +19,42 @@ const Navbar = () => {
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
       >
-        <AiOutlineHome />
+        Home
       </a>
       <a
         href="#about"
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
-        <AiOutlineUser />
+        About
       </a>
       <a
         href="#experience"
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
-        <BiBookOpen />
+        Experience
+      </a>
+      <a
+        href="#resume"
+        onClick={() => setActiveNav("#resume")}
+        className={activeNav === "#resume" ? "active" : ""}
+      >
+        Resume
       </a>
       <a
         href="#services"
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#services" ? "active" : ""}
       >
-        <MdOutlineMiscellaneousServices />
+        Services
       </a>
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
       >
-        <MdOutlineContacts />
+        Contact
       </a>
     </nav>
   );

@@ -12,45 +12,24 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Mobile App Development</h3>
           </div>
           <ul className="service__list">
             <li>
               <GiCheckMark className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Design to development.</p>
             </li>
             <li>
               <GiCheckMark className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Provide Android/iOS app services.</p>
             </li>
             <li>
               <GiCheckMark className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>Focused on delivering precise apps.</p>
             </li>
           </ul>
         </article>
         {/* End of UI/UX */}
-
-        <article className="service">
-          <div className="service__head">
-            <h3>Web Development</h3>
-          </div>
-          <ul className="service__list">
-            <li>
-              <GiCheckMark className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <GiCheckMark className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <GiCheckMark className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-            </li>
-          </ul>
-        </article>
-        {/* End of Web development */}
 
         <article className="service">
           <div className="service__head">
@@ -59,15 +38,34 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <GiCheckMark className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>
+                Development of augmented reality applications using Google AR
+                Core, Unity and Vuforia.
+              </p>
             </li>
             <li>
               <GiCheckMark className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                App features Image tracking, Try-on Face filters, AR Measurement
+                and Video AR.
+              </p>
+            </li>
+          </ul>
+        </article>
+        {/* End of Web development */}
+
+        <article className="service">
+          <div className="service__head">
+            <h3>Web Development</h3>
+          </div>
+          <ul className="service__list">
+            <li>
+              <GiCheckMark className="service__list-icon" />
+              <p>Like to code things from scratch.</p>
             </li>
             <li>
               <GiCheckMark className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <p>enjoy bringing ideas to life in the browser.</p>
             </li>
           </ul>
         </article>
