@@ -6,20 +6,20 @@
 
 .service {
   background: transparent;
-  border: 2px solid var(--charcoal-color);
+  border: 2px solid var(--button-bg);
   border-radius: 0 0 2rem 2rem;
   height: fit-content;
   transition: var(--transition);
 }
 
 .service__head {
-  background: var(--charcoal-color);
+  background: var(--button-bg);
   padding: 2rem;
   border-radius: 0 0 2rem 2rem;
 }
 
 .service__head:hover {
-  background: var(--heading-color);
+  background: var(--secondary-heading);
   cursor: default;
   transition: var(--transition);
 }
@@ -41,13 +41,13 @@
 }
 
 .service__list-icon {
-  color: var(--heading-color);
+  color: var(--white-color);
   margin-top: 2px;
 }
 
 .service__list p {
   font-size: 0.9rem;
-  color: var(--heading-color);
+  color: var(--third-heading);
 }
 
 /* =========== MEDIA Queries (Medium devices) =========== */

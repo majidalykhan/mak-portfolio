@@ -9,13 +9,13 @@
   font-weight: 400;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #222222;
+  color: var(--white-color);
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid var(--dark-grey-color);
+  border-left: 2px solid var(--third-heading);
   position: relative;
 }
 
@@ -23,18 +23,26 @@
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  color: var(--charcoal-color);
+  color: var(--white-color);
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: var(--grey-color);
+  background: var(--secondary-heading);
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
-  color: var(--black-color);
+  color: var(--white-color);
+}
+
+.resume .resume-item p {
+  color: var(--third-heading);
+}
+
+.resume .resume-item p em {
+  color: var(--button-bg);
 }
 
 .resume .resume-item ul {
@@ -55,10 +63,10 @@
   width: 16px;
   height: 16px;
   border-radius: 50px;
-  left: -9px;
+  left: -10px;
   top: 0;
-  background: var(--charcoal-color);
-  border: 2px solid var(--primary);
+  background: var(--button-bg);
+  border: 2px solid var(--button-bg);
 }
 
 /* =========== MEDIA Queries (Medium devices) =========== */
@@ -85,4 +93,3 @@
     padding: 2rem 1rem;
   }
 }
-

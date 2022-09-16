@@ -17,7 +17,7 @@ header {
   font-size: 1.5rem;
   padding-top: 3rem;
   letter-spacing: 6px;
-  color: var(--dark-grey-color);
+  color:var(--main-heading);
 }
 
 /* ========= Animated heading ========= */
@@ -30,7 +30,7 @@ header {
 }
 
 .content h2 {
-  color: red;
+  color: blue;
   font-size: 5rem;
   position: fixed;
   margin-left: auto;
@@ -39,11 +39,11 @@ header {
 
 .content h2:nth-child(1) {
   color: transparent;
-  -webkit-text-stroke: 1px var(--dark-grey-color);
+  -webkit-text-stroke: 1px var(--hero-text);
 }
 
 .content h2:nth-child(2) {
-  color: var(--charcoal-color);
+  color: var(--button-bg);
   animation: animate 7s ease-in-out infinite;
 }
 
@@ -101,18 +101,18 @@ header {
 
 .header__socials a {
   font-size: 1.5rem;
-  color: var(--heading-color);
+  color:var(--third-heading);
 }
 
 .header__socials a:hover {
-  color: var(--dark-grey-color);
+  color: var(--button-bg);
 }
 
 .header__socials:after {
   content: "";
   width: 1px;
   height: 2rem;
-  background: var(--heading-color);
+  background: var(--white-color);
 }
 
 /* =========== Profile image =========== */

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./testimonials.css";
 
 import { data } from "./testimonialsData";
-import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
+import { AiOutlineLeft, AiOutlineRight, AiOutlineUser } from "react-icons/ai";
 
 const Testimonials = () => {
   const [index, setIndex] = useState(0);
@@ -40,7 +40,7 @@ const Testimonials = () => {
       <div className="container testimonials__container">
         <article className="testimonial">
           <div className="client__avatar">
-            <img src={image} alt={name} />
+            <AiOutlineUser />
           </div>
           <h4 className="client__name">{name}</h4>
           <h5 className="client__country">{country}</h5>

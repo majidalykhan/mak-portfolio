@@ -2,7 +2,8 @@ import React from "react";
 import "./portfolio.css";
 
 import { data } from "./portfolioData";
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
+import {CgDetailsMore} from 'react-icons/cg'
 
 const Portfolio = () => {
   return (
@@ -22,10 +23,10 @@ const Portfolio = () => {
                   <h3>{title}</h3>
                   <div class="icons">
                     <a href={github} class="icon">
-                      <AiFillLinkedin />
+                      <AiFillGithub className="social-icon" />
                     </a>
                     <a href={demo} class="icon">
-                      <AiFillGithub />
+                      <CgDetailsMore className="social-icon"/>
                     </a>
                   </div>
                 </div>
