@@ -6,6 +6,9 @@ nav {
   margin-right: auto;
   background: var(--grey-platinum-color);
   padding: 4px;
+  border-bottom: 1px solid var(--button-bg);
+  border-left: 1px solid var(--button-bg);
+  border-right: 1px solid var(--button-bg);  
   top: 0px;
   text-align: center;
   width: 60%;
@@ -16,18 +19,18 @@ nav {
 }
 
 nav a {
-  color:var(--dark-grey-color);
+  color:var(--secondary-heading-color);
   text-decoration:none;
   margin: 0px 25px;
   font-size: 1rem;
 }
 
 nav a:hover {
-  color: var(--black-color);
+  color: var(--button-bg);
 }
 
 nav a.active {
-  color: var(--black-color);
+  color: var(--button-bg);
 }
 
 /* =========== MEDIA Queries (Medium devices) =========== */
