@@ -9,13 +9,13 @@
   font-weight: 400;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: var(--white-color);
+  color: var(--secondary-heading-color);
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid var(--third-heading);
+  border-left: 2px solid var(--secondary-heading-color);
   position: relative;
 }
 
@@ -23,13 +23,13 @@
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  color: var(--white-color);
+  color: var(--secondary-heading-color);
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: var(--secondary-heading);
+  background: var(--button-bg);
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -38,7 +38,7 @@
 }
 
 .resume .resume-item p {
-  color: var(--third-heading);
+  color: var(--secondary-heading-color);
 }
 
 .resume .resume-item p em {
@@ -66,7 +66,7 @@
   left: -10px;
   top: 0;
   background: var(--button-bg);
-  border: 2px solid var(--button-bg);
+  border: 2px solid var(--heading-color);
 }
 
 /* =========== MEDIA Queries (Medium devices) =========== */

@@ -15,7 +15,7 @@
 .about__me-image {
   width: 25rem;
   height: 23rem;
-  border: 4px solid var(--button-bg);
+  border: 2px solid var(--button-bg);
   border-radius: 2rem;
   overflow: hidden;
 }
@@ -32,22 +32,21 @@
 .about__card {
   background: transparent;
   border: 2px solid var(--button-bg);
-  color: var(--white-color);
+  color: var(--secondary-heading-color);
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
 }
 
 .about__card:hover {
-  background: var(--bg2-color);
-  color: var(--white-color);
-  border: 2px solid var(--secondary-heading);
+  background: transparent;
+  color: var(--button-bg);
   transition: var(--transition);
   cursor: default;
 }
 
 .about__icon {
-  color: var(--white-color);
+  color: var(--heading-color);
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
@@ -63,7 +62,7 @@
 
 .about__content p {
   margin: 1rem 0 1.5rem;
-  color: var(--third-heading);
+  color: var(--secondary-heading-color);
   text-align: justify;
   
 }

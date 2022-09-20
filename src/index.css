@@ -20,22 +20,17 @@
   --charcoal-color: #36454f;
 
   --bg-color: #f6f6f6;
-  
-  --button1-color: #408697;
-  --button2-color: #52d6f4;
 
-  /* -------- Gorgeous Contrast scheme ------ */
-  --main-heading: #ffffff;
-  --secondary-heading: #61892f;
-  --third-heading: #e5e4e2;
-  
-  --bg-color: #222629;
-  --bg2-color: #363538;
+  /* -------- Blue scheme ------ */
+  --heading-color: #1c3879;
+  --secondary-heading-color: #323232;
+  --button-hover: #112d4e;
+  --button-bg: #3f72af;
 
-  --button-bg: #86c232;
-  --button2-bg: #61892f;
-
-  --hero-text: #86c232;
+  --button1-bg: #396eb0;
+  --button1-hover: #2e4c6d;
+  --button2-bg: var(--secondary-heading-color);
+  --button2-hover: var(--button1-hover);
 
   --transition: all 400ms ease;
 
@@ -86,11 +81,11 @@ section {
 section > h2,
 section > h5 {
   text-align: center;
-  color: var(--third-heading);
+  color: var(--heading-color);
 }
 
 section > h2 {
-  color: var(--white-color);
+  color: var(--secondary-heading-color);
   margin-bottom: 3rem;
 }
 
@@ -110,9 +105,9 @@ a:hover {
 .btn {
   width: max-content;
   display: inline-block;
-  color: var(--black-color);
+  color: var(--white-color);
   font-weight: 500;
-  background: var(--button-bg);
+  background: var(--button1-bg);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
@@ -120,7 +115,7 @@ a:hover {
 }
 
 .btn:hover {
-  background: var(--dark-grey-color);
+  background: var(--button1-hover);
   color: var(--white-color);
 }
 
@@ -130,7 +125,7 @@ a:hover {
 }
 
 .btn-secondary:hover {
-  background: var(--dark-grey-color);
+  background: var(--button2-hover);
   color: var(--white-color);
 }
 

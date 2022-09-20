@@ -6,7 +6,7 @@
   font-size: 2rem;
   overflow: hidden;
   margin: 0 auto 1rem;
-  color: var(--white-color);
+  color: var(--button-bg);
 }
 
 .testimonial {
@@ -19,26 +19,26 @@
 
 .testimonial h4,
 h5 {
-  color: var(--white-color);
+  color: var(--secondary-heading-color);
 }
 
 .platform {
-  color: var(--white-color);
+  color: var(--heading-color);
   font-style: italic;
-  font-weight: 300;
+  font-weight: 400;
   margin-top: 0.5rem;
 }
 
 .client__review {
-  color: var(--third-heading);
-  font-weight: 300;
+  color: var(--secondary-heading-color);
+  font-weight: 400;
   display: block;
   width: 80%;
-  margin: 0.8rem auto 0;
+  margin: 2rem auto 0;
 }
 
 .left {
-  color: var(--white-color);
+  color: var(--button-bg);
   margin-top: 2rem;
   font-size: 1.5rem;
   margin-right: 2rem;
@@ -46,17 +46,17 @@ h5 {
 }
 
 .right {
-  color: var(--white-color);
+  color: var(--button-bg);
   font-size: 1.5rem;
   cursor: pointer;
 }
 
 .left:hover {
-  color: var(--button-bg);
+  color: var(--secondary-heading-color);
 }
 
 .right:hover {
-  color: var(--button-bg);
+  color: var(--secondary-heading-color);
 }
 
 /* =========== MEDIA Queries (Medium devices) =========== */
