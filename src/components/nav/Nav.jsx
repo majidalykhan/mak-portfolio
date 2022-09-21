@@ -1,13 +1,9 @@
 import React from "react";
+
+import { Outlet, Link } from "react-router-dom";
+
 import "./nav.css";
 import { useState } from "react";
-
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
-import { BiBookOpen } from "react-icons/bi";
-import {
-  MdOutlineMiscellaneousServices,
-  MdOutlineContacts,
-} from "react-icons/md";
 
 const Navbar = () => {
   const [activeNav, setActiveNav] = useState("#");

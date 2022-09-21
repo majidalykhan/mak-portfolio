@@ -1,7 +1,12 @@
 import React from "react";
 import "./contact.css";
 
-import { AiOutlineMail, AiOutlineWhatsApp } from "react-icons/ai";
+import {
+  AiOutlineMail,
+  AiOutlineWhatsApp,
+  AiFillLinkedin,
+  AiFillGithub,
+} from "react-icons/ai";
 import { SiFiverr } from "react-icons/si";
 
 const Contact = () => {
@@ -21,9 +26,25 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
+            <AiFillLinkedin className="contact__option-icon" />
+            <h4>Linkedin</h4>
+            <h5>Majid Ali Khan</h5>
+            <a href="https://www.linkedin.com/in/majidalykhan/" target="_blank">
+              Send a message
+            </a>
+          </article>
+          <article className="contact__option">
+            <AiFillGithub className="contact__option-icon" />
+            <h4>Github</h4>
+            <h5>majidalykhan</h5>
+            <a href="https://github.com/majidalykhan" target="_blank">
+              Send a message
+            </a>
+          </article>
+          <article className="contact__option">
             <SiFiverr className="contact__option-icon" />
             <h4>Fiverr</h4>
-            <h5>majialykhan</h5>
+            <h5>majidalykhan</h5>
             <a href="https://www.fiverr.com/majidalykhan" target="_blank">
               Send a message
             </a>
