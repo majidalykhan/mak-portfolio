@@ -13,20 +13,21 @@
 }
 
 .contact__option {
-  border: 2px solid var(--button-bg);
+  border: 2px solid var(--secondary-heading-color);
   padding: 1rem;
+  background: var(--button-bg);
   border-radius: 1.2rem;
   text-align: center;
   transition: var(--transition);
-  color: var(--secondary-heading-color);
+  color: var(--white-color);
 }
 
 .contact__option h5 {
-  color: var(--secondary-heading-color);
+  color: var(--grey-platinum-color);
 }
 
 .contact__option a {
-  color: var(--button-bg);
+  color: var(--white-color);
   font-style: italic;
   transform: scale(0.3deg);
 }

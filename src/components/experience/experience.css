@@ -5,17 +5,16 @@
 }
 
 .experience__frontend > div {
-  border: 2px solid var(--button-bg);
+  border: 2px solid var(--secondary-heading-color);
   padding: 2rem 4rem;
+  background: var(--button-bg);
   border-radius: 2rem;
   transition: var(--transition);
-  color: var(--secondary-heading-color);
+  color: var(--white-color);
 }
 
 .experience__frontend > div:hover {
   cursor: default;
-  border: 2px solid var(--heading-color);
-
 }
 
 .experience__frontend > h3 {
@@ -25,16 +24,16 @@
 }
 
 .experience__backend > div {
-  border: 2px solid var(--button-bg);
+  border: 2px solid var(--secondary-heading-color);
+  background: var(--button-bg);
   padding: 2rem 4rem;
   border-radius: 2rem;
   transition: var(--transition);
-  color: var(--secondary-heading-color);
+  color: var(--white-color);
 }
 
 .experience__backend > div:hover {
   cursor: default;
-  border: 2px solid var(--heading-color);
 }
 
 .experience__backend > h3 {
@@ -56,7 +55,7 @@
 
 .experience__details-icon {
   margin-top: 6px;
-  color: var(--heading-color);
+  color: var(--secondary-heading-color);
 }
 
 /* =========== MEDIA Queries (Medium devices) =========== */

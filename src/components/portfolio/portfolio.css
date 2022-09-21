@@ -8,6 +8,8 @@
 .portfolios .portfolio-item {
   position: relative;
   border-radius: 15px;
+  border: 2px solid var(--secondary-heading-color);
+
 }
 .portfolios .portfolio-item img {
   width: 100%;

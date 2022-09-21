@@ -6,11 +6,12 @@
   font-size: 2rem;
   overflow: hidden;
   margin: 0 auto 1rem;
-  color: var(--button-bg);
+  color: var(--white-color);
 }
 
 .testimonial {
-  border: 2px solid var(--button-bg);
+  background: var(--button-bg);
+  border: 2px solid var(--secondary-heading-color);
   text-align: center;
   padding: 2rem;
   border-radius: 2rem;
@@ -19,18 +20,18 @@
 
 .testimonial h4,
 h5 {
-  color: var(--secondary-heading-color);
+  color: var(--white-color);
 }
 
 .platform {
-  color: var(--heading-color);
+  color: var(--white-color);
   font-style: italic;
   font-weight: 400;
   margin-top: 0.5rem;
 }
 
 .client__review {
-  color: var(--secondary-heading-color);
+  color: var(--white-color);
   font-weight: 400;
   display: block;
   width: 80%;
@@ -38,7 +39,7 @@ h5 {
 }
 
 .left {
-  color: var(--button-bg);
+  color: var(--grey-platinum-color);
   margin-top: 2rem;
   font-size: 1.5rem;
   margin-right: 2rem;
@@ -46,7 +47,7 @@ h5 {
 }
 
 .right {
-  color: var(--button-bg);
+  color: var(--grey-platinum-color);
   font-size: 1.5rem;
   cursor: pointer;
 }
