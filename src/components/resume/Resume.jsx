@@ -35,7 +35,7 @@ const Resume = () => {
           <h3 class="resume-title">Professional Experience</h3>
           <div class="resume-item">
             <h4>React Developer</h4>
-            <h5>Sep 2022 - Present</h5>
+            <h5>June 2021 - Present</h5>
             <p>
               <em>Online</em>
             </p>
