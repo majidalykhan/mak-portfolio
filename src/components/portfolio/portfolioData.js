@@ -73,14 +73,12 @@ export const data = [
   },
   {
     id: "6",
-    image:
-      "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cG9ydGZvbGlvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    title: "Project 6",
+    image: "https://miro.medium.com/max/750/1*41E7KLIvzPvisZY_s4XR0A.png",
+    title: "React Course",
     github: "https://github.com/majidalykhan",
     projectType: "web",
     portfolio_images: [
-      "https://res.cloudinary.com/dxoifd6ol/image/upload/v1663675961/cld-sample-3.jpg",
-      "https://res.cloudinary.com/dxoifd6ol/image/upload/v1663675962/cld-sample-4.jpg",
+      "https://miro.medium.com/max/750/1*41E7KLIvzPvisZY_s4XR0A.png",
     ],
   },
 ];

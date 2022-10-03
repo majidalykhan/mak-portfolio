@@ -34,8 +34,21 @@ const Resume = () => {
         <div class="resume__experience">
           <h3 class="resume-title">Professional Experience</h3>
           <div class="resume-item">
+            <h4>React Developer</h4>
+            <h5>Sep 2022 - Present</h5>
+            <p>
+              <em>Online</em>
+            </p>
+            <p>
+              Started hands-on practice on React framework. Took 10-hour long
+              course, coded along and did commits on github as the course went.
+              Learned the fundamentals, hooks, context API, react router, custom
+              hooks and more in this comprehensive course.
+            </p>
+          </div>
+          <div class="resume-item">
             <h4>Android Developer</h4>
-            <h5>Aug 2020 - Present</h5>
+            <h5>Aug 2020 - Aug 2022</h5>
             <p>
               <em>Fiverr</em>
             </p>
@@ -43,18 +56,6 @@ const Resume = () => {
               Worked on application development, Augmented Reality, platform and
               architecture of suite of apps. Worked as an android developer by
               integrating APIs like Google AR Core and Firebase.
-            </p>
-          </div>
-          <div class="resume-item">
-            <h4>Try-on Glasses</h4>
-            <h5>2020</h5>
-            <p>
-              <em>Outsource</em>
-            </p>
-            <p>
-              An android application that applies 3d models of glasses on user's
-              face. User can try on different pair of glasses with realtime face
-              tracking.
             </p>
           </div>
 
@@ -74,6 +75,18 @@ const Resume = () => {
               exciting image with style you like. It need two input images i.e.
               one representing the artistic style and one representing the
               content.
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Try-on Glasses</h4>
+            <h5>2020</h5>
+            <p>
+              <em>Outsource</em>
+            </p>
+            <p>
+              An android application that applies 3d models of glasses on user's
+              face. User can try on different pair of glasses with realtime face
+              tracking.
             </p>
           </div>
 
