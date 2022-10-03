@@ -7,7 +7,7 @@ Implementation of learned concepts which are Components, Props and useState.
 <h2>Screenshot</h2>
 
 <p float="left">
- <img src="src/assets/github/1.PNG" width="300" height="500">
+ <img src="src/assets/github/1.PNG" width="300" height="400">
   <img src="src/assets/github/2.PNG" width="300" height="500">
    <img src="src/assets/github/3.PNG" width="300" height="500">
     <img src="src/assets/github/4.PNG" width="300" height="500">
