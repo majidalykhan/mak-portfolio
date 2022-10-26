@@ -4,11 +4,11 @@ nav {
   border-end-end-radius: 3rem;
   margin-left: auto;
   margin-right: auto;
-  background: var(--grey-platinum-color);
+  background: var(--secondary-heading-color);
   padding: 4px;
-  border-bottom: 1px solid var(--button-bg);
-  border-left: 1px solid var(--button-bg);
-  border-right: 1px solid var(--button-bg);  
+  border-bottom: 2px solid var(--black-color);
+  border-left: 2px solid var(--black-color);
+  border-right: 2px solid var(--black-color);  
   top: 0px;
   text-align: center;
   width: 60%;
@@ -19,7 +19,7 @@ nav {
 }
 
 nav a {
-  color:var(--secondary-heading-color);
+  color:var(--grey-color);
   text-decoration:none;
   margin: 0px 25px;
   font-size: 1rem;
@@ -30,7 +30,7 @@ nav a:hover {
 }
 
 nav a.active {
-  color: var(--button-bg);
+  color: var(--white-color);
 }
 
 /* =========== MEDIA Queries (Medium devices) =========== */

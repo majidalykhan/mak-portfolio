@@ -1,5 +1,5 @@
 header {
-  height: 80vh;
+  height: 70vh;
   overflow: hidden;
 }
 
@@ -92,29 +92,32 @@ header {
 
 .header__socials {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  gap: 0.8rem;
-  position: absolute;
-  left: 0;
-  
+  gap: 1rem;
+  position: relative;
+  padding-top: 2rem;
 }
 
 .header__socials a {
-  font-size: 1.5rem;
-  color:var(--button-bg);
+  margin: 1rem;
+
+ }
+
+.header__socials span {
+ font-size: 1.2rem;
+ color: var(--secondary-heading-color);
+}
+
+.header_socials-img {
+  width: 4rem;
 }
 
 .header__socials a:hover {
   color: var(--secondary-heading-color);
 }
 
-.header__socials:after {
-  content: "";
-  width: 1px;
-  height: 2rem;
-  background: var(--heading-color);
-}
 
 /* =========== Profile image =========== */
 
@@ -142,16 +145,12 @@ header {
 /* =========== MEDIA Queries (Small devices) =========== */
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
-  }
-
-  .header__socials {
-    bottom: 0rem;
+    height: 70vh;
   }
 
   .content h2 {
     color: #fff;
-    font-size: 4rem;
+    font-size: 3.5rem;
     position: fixed;
   }
 }

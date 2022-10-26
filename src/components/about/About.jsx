@@ -40,7 +40,7 @@ const About = () => {
             continuous personal and professional development. I'm always eager
             to find opportunities that help me grow and get exposure.
           </p>
-          <a href="#contact" className="btn">
+          <a href="#contact" className="btn btn-secondary">
             Let's Talk
           </a>
         </div>
