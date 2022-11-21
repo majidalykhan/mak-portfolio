@@ -10,8 +10,8 @@
 }
 
 .testimonial {
-  background: var(--button-bg);
-  border: 2px solid var(--secondary-heading-color);
+  background: var(--secondary-black);
+  border: 2px solid var(--secondary-black);
   text-align: center;
   padding: 2rem;
   border-radius: 2rem;
@@ -53,11 +53,11 @@ h5 {
 }
 
 .left:hover {
-  color: var(--secondary-heading-color);
+  color: var(--white-color);
 }
 
 .right:hover {
-  color: var(--secondary-heading-color);
+  color: var(--white-color);
 }
 
 /* =========== MEDIA Queries (Medium devices) =========== */

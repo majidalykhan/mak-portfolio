@@ -18,17 +18,17 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FiAward className="about__icon" />
+              <FiAward />
               <h2>Experience</h2>
               <small>2+ Years Working</small>
             </article>
             <article className="about__card">
-              <FiUsers className="about__icon" />
+              <FiUsers />
               <h2>Clients</h2>
               <small>Worldwide</small>
             </article>
             <article className="about__card">
-              <FiFolder className="about__icon" />
+              <FiFolder />
               <h2>Projects</h2>
               <small>15+ Completed</small>
             </article>
@@ -40,7 +40,7 @@ const About = () => {
             continuous personal and professional development. I'm always eager
             to find opportunities that help me grow and get exposure.
           </p>
-          <a href="#contact" className="btn btn-secondary">
+          <a href="#contact" className="btn">
             Let's Talk
           </a>
         </div>

@@ -1,11 +1,11 @@
 header {
-  height: 70vh;
+  height: 60vh;
   overflow: hidden;
 }
 
 .header__container {
   text-align: center;
-  height: 50%;
+  height: 40%;
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -14,24 +14,22 @@ header {
 }
 
 .header__container p {
-  font-size: 1.5rem;
-  padding-top: 3rem;
+  font-size: 1.2rem;
+  padding-top: 4rem;
   letter-spacing: 6px;
-  color: var(--secondary-heading-color);
+  color: var(--secondary-black);
 }
 
 /* ========= Animated heading ========= */
 .content {
   display: flex;
-  margin-top: 3rem;
-  padding-bottom: 2rem;
+  margin-top: 2rem;
   align-items: center;
   justify-content: center;
 }
 
 .content h2 {
-  color: red;
-  font-size: 5rem;
+  font-size: 4rem;
   position: fixed;
   margin-top: 1rem;
   margin-left: auto;
@@ -40,11 +38,11 @@ header {
 
 .content h2:nth-child(1) {
   color: transparent;
-  -webkit-text-stroke: 1px var(--button-hover);
+  -webkit-text-stroke: 1px var(--black-color);
 }
 
 .content h2:nth-child(2) {
-  color: var(--button-bg);
+  color: var(--secondary-black);
   animation: animate 7s ease-in-out infinite;
 }
 
@@ -97,17 +95,16 @@ header {
   align-items: center;
   gap: 1rem;
   position: relative;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 .header__socials a {
   margin: 1rem;
-
  }
 
 .header__socials span {
  font-size: 1.2rem;
- color: var(--secondary-heading-color);
+ color: var(--secondary-black);
 }
 
 .header_socials-img {
@@ -115,7 +112,7 @@ header {
 }
 
 .header__socials a:hover {
-  color: var(--secondary-heading-color);
+  color: var(--secondary-black);
 }
 
 
@@ -150,7 +147,7 @@ header {
 
   .content h2 {
     color: #fff;
-    font-size: 3.5rem;
+    font-size: 3rem;
     position: fixed;
   }
 }

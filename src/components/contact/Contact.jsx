@@ -17,49 +17,33 @@ const Contact = () => {
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
+          <a href="mailto:majidalykhan@gmail.com" target="_blank">
             <AiOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>majialykhan@gmail.com</h5>
-            <a href="mailto:majidalykhan@gmail.com" target="_blank">
-              Send a message
-            </a>
-          </article>
-          <article className="contact__option">
+          </a>
+
+          <a href="https://www.linkedin.com/in/majidalykhan/" target="_blank">
             <AiFillLinkedin className="contact__option-icon" />
             <h4>Linkedin</h4>
-            <h5>Majid Ali Khan</h5>
-            <a href="https://www.linkedin.com/in/majidalykhan/" target="_blank">
-              Send a message
-            </a>
-          </article>
-          <article className="contact__option">
+          </a>
+
+          <a href="https://github.com/majidalykhan" target="_blank">
             <AiFillGithub className="contact__option-icon" />
             <h4>Github</h4>
-            <h5>majidalykhan</h5>
-            <a href="https://github.com/majidalykhan" target="_blank">
-              Send a message
-            </a>
-          </article>
-          <article className="contact__option">
+          </a>
+
+          <a href="https://www.fiverr.com/majidalykhan" target="_blank">
             <SiFiverr className="contact__option-icon" />
             <h4>Fiverr</h4>
-            <h5>majidalykhan</h5>
-            <a href="https://www.fiverr.com/majidalykhan" target="_blank">
-              Send a message
-            </a>
-          </article>
-          <article className="contact__option">
+          </a>
+
+          <a
+            href="https:/api.whatsapp.com/send?phone=03105484207"
+            target="_blank"
+          >
             <AiOutlineWhatsApp className="contact__option-icon" />
             <h4>Whatsapp</h4>
-            <h5>+92-310-5484207</h5>
-            <a
-              href="https:/api.whatsapp.com/send?phone=03105484207"
-              target="_blank"
-            >
-              Send a message
-            </a>
-          </article>
+          </a>
         </div>
         {/* End of Contact Options */}
         <form action="">
@@ -72,7 +56,7 @@ const Contact = () => {
             placeholder="Your Message"
             required
           ></textarea>
-          <button type="submit" className="btn btn-secondary">
+          <button type="submit" className="btn">
             Send Message
           </button>
         </form>

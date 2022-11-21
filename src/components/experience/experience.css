@@ -5,9 +5,8 @@
 }
 
 .experience__frontend > div {
-  border: 2px solid var(--secondary-heading-color);
   padding: 2rem 4rem;
-  background: var(--button-bg);
+  background: var(--secondary-black);
   border-radius: 2rem;
   transition: var(--transition);
   color: var(--white-color);
@@ -25,7 +24,7 @@
 
 .experience__backend > div {
   border: 2px solid var(--secondary-heading-color);
-  background: var(--button-bg);
+  background: var(--dark-grey);
   padding: 2rem 4rem;
   border-radius: 2rem;
   transition: var(--transition);

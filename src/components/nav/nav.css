@@ -4,7 +4,7 @@ nav {
   border-end-end-radius: 3rem;
   margin-left: auto;
   margin-right: auto;
-  background: var(--secondary-heading-color);
+  background: var(--secondary-black);
   padding: 4px;
   border-bottom: 2px solid var(--black-color);
   border-left: 2px solid var(--black-color);
@@ -26,7 +26,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--button-bg);
+  color: var(--white-color);
 }
 
 nav a.active {

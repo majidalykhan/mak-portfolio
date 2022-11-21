@@ -8,7 +8,7 @@
 .portfolios .portfolio-item {
   position: relative;
   border-radius: 15px;
-  border: 2px solid var(--secondary-heading-color);
+  border: 2px solid var(--secondary-black);
 
 }
 .portfolios .portfolio-item img {
@@ -20,7 +20,7 @@
 .portfolios .portfolio-item .hover-items {
   width: 100%;
   height: 100%;
-  background-color: var(--button-bg);
+  background-color: var(--secondary-black);
   position: absolute;
   left: 0;
   top: 0;
@@ -45,6 +45,7 @@
 }
 .portfolios .portfolio-item .hover-items .icons .icon {
   background-color: var(--white-color);
+  color: var(--black-color);
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -66,7 +67,7 @@
 
 .portfolios .portfolio-item .hover-items .icons .icon:hover {
   background-color: var(--white-color);
-  color: var(--secondary-heading-color);
+  color: var(--secondary-black);
 }
 .portfolios .portfolio-item .hover-items .icons .icon:hover i {
   color: var(--white-color);
@@ -96,67 +97,20 @@
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   border-radius: 50px;
-  border: 1px solid var(--button-bg);
-  color: var(--secondary-heading-color);
+  border: 2px solid var(--black-color);
+  color: var(--white-color);
+  background: var(--secondary-black);
 }
 
 .portfolio-flters li:hover,
 .portfolio-flters li.filter-active {
-  color: var(--white-color);
-  background: var(--button-bg);
+  color: var(--secondary-black);
+  background: var(--white-color);
 }
 
 .portfolio-flters li:last-child {
   margin-right: 0;
 }
-/* 
-.modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: white;
-  color: black;
-  padding: 1rem 1.5rem;
-  width: 70%;
-  height: 70%;
-  border-radius: 0.5rem;
-  border: 2px solid var(--button-bg);
-}
-
-.modal-content {
-  padding: 0.5rem;
-}
-
-.modal-content h2 {
-  margin-bottom: 0.2rem;
-}
-
-.modal-content p {
-  margin-bottom: 1rem;
-}
-
-.modal-content .portfolio-images {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  width: 500px;
-  grid-gap: 0.5rem;
-}
-
-.portfolio-images img {
-  width: 200px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 15px;
-}
-
-.modal-content button {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  margin: 2rem;
-} */
 
 /* =========== MEDIA Queries (Medium devices) =========== */
 @media screen and (max-width: 1024px) {
