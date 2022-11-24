@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.d0097aff.css",
-    "main.js": "/static/js/main.3583e465.js",
-    "static/media/profile_img.jpg": "/static/media/profile_img.6d153d14ce1df085b65b.jpg",
-    "index.html": "/index.html",
-    "main.d0097aff.css.map": "/static/css/main.d0097aff.css.map",
-    "main.3583e465.js.map": "/static/js/main.3583e465.js.map"
+    "main.css": "/react-gh-pages/static/css/main.8031ef95.css",
+    "main.js": "/react-gh-pages/static/js/main.6d24ff1a.js",
+    "static/media/profile_img.jpg": "/react-gh-pages/static/media/profile_img.6d153d14ce1df085b65b.jpg",
+    "static/media/majidalykhan@gmail.com.pdf": "/react-gh-pages/static/media/majidalykhan@gmail.com.98347706e0efb7f6a74f.pdf",
+    "index.html": "/react-gh-pages/index.html",
+    "main.8031ef95.css.map": "/react-gh-pages/static/css/main.8031ef95.css.map",
+    "main.6d24ff1a.js.map": "/react-gh-pages/static/js/main.6d24ff1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0097aff.css",
-    "static/js/main.3583e465.js"
+    "static/css/main.8031ef95.css",
+    "static/js/main.6d24ff1a.js"
   ]
 }
