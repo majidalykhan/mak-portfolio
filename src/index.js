@@ -10,7 +10,7 @@ const container = document.getElementById("root");
 const root = createRoot(container); // createRoot(container!) if you use TypeScript
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/mak-portfolio">
       <Routes>
         <Route path="/" element={<App />}></Route>
       </Routes>

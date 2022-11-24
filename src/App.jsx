@@ -4,7 +4,6 @@ import {
   Header,
   Nav,
   About,
-  Experience,
   Resume,
   Services,
   Portfolio,

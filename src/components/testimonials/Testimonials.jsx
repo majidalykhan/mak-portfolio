@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import "./testimonials.css";
 
@@ -6,7 +7,7 @@ import { AiOutlineLeft, AiOutlineRight, AiOutlineUser } from "react-icons/ai";
 
 const Testimonials = () => {
   const [index, setIndex] = useState(0);
-  const { name, image, country, review } = data[index];
+  const { name, country, review } = data[index];
 
   const checkNumber = (number) => {
     if (number > data.length - 1) {

@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import profileImage from "../assets/profile_img.jpg";
 
 const linkedin = "https://img.icons8.com/fluency/96/000000/linkedin.png";
