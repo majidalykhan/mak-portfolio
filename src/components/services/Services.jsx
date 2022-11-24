@@ -65,7 +65,7 @@ const Services = () => {
             </li>
             <li>
               <GiCheckMark className="service__list-icon" />
-              <p>enjoy bringing ideas to life in the browser.</p>
+              <p>Enjoy bringing ideas to life in the browser.</p>
             </li>
           </ul>
         </article>

@@ -45,6 +45,15 @@
   color: var(--secondary-black);
 }
 
+.resume .resume-item .git-link {
+  color: var(--secondary-black);
+  font-weight: 700;
+}
+
+.resume .resume-item a {
+  color: var(--secondary-black);
+}
+
 .resume .resume-item ul {
   padding-left: 20px;
 }

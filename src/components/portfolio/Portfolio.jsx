@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import "./portfolio.css";
-import Modal from "react-modal";
 
 import { data } from "./portfolioData";
 import { AiFillGithub } from "react-icons/ai";
-import { CgDetailsMore } from "react-icons/cg";
 
 const Portfolio = () => {
   const [projectType, setProjecType] = useState("");
@@ -53,7 +51,12 @@ const Portfolio = () => {
                   <div class="hover-items">
                     <h3>{item.title}</h3>
                     <div class="icons">
-                      <a href={item.github} class="icon" target="_blank">
+                      <a
+                        href={item.github}
+                        class="icon"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <AiFillGithub className="social-icon" />
                       </a>
                       {/* To Add details button later */}
@@ -67,26 +70,6 @@ const Portfolio = () => {
             );
           })}
       </div>
-      {/* <Modal
-        isOpen={modalIsOpen}
-        onRequestClose={closeModal}
-        contentLabel="My dialog"
-        className="modal"
-      >
-        <div className="modal-content">
-          <h2>{selectedProject && selectedProject.title}</h2>
-          <p>{selectedProject && selectedProject.description}</p>
-          <div className="portfolio-images">
-            {selectedProject &&
-              selectedProject.portfolio_images.map((image) => {
-                return <img src={image}></img>;
-              })}
-          </div>
-          <button className="btn" onClick={closeModal}>
-            Close
-          </button>
-        </div>
-      </Modal> */}
     </section>
   );
 };

@@ -48,7 +48,7 @@ export const data = [
       "https://res.cloudinary.com/dxoifd6ol/image/upload/v1663747697/Portfolio/movies-app/movies-app_rrhyzo.png",
     title: "Movies App",
     github: "https://github.com/majidalykhan",
-    projectType: "ar",
+    projectType: "web",
     description:
       "React Movies Database App. The list contain Marvel movies collection with all the information of each movie. The list is fetched using api from themoviedb.org",
     portfolio_images: [

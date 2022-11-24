@@ -47,8 +47,8 @@ const Resume = () => {
             </p>
           </div>
           <div class="resume-item">
-            <h4>Android Developer</h4>
-            <h5>Aug 2020 - Aug 2022</h5>
+            <h4>Mobile AR Developer</h4>
+            <h5>Aug 2020 - Present</h5>
             <p>
               <em>Fiverr</em>
             </p>
@@ -57,6 +57,46 @@ const Resume = () => {
               architecture of suite of apps. Worked as an android developer by
               integrating APIs like Google AR Core and Firebase.
             </p>
+          </div>
+
+          <div class="resume-item">
+            <h4>Portfolio Website</h4>
+            <h5>Sep 2022 - Nov 2022</h5>
+            <p>
+              <em>Project</em>
+            </p>
+            <p>
+              Personal website project using React JS. Implementation of learned
+              concepts which are Components, Props and useState.
+            </p>
+            <a
+              className="git-link"
+              href="https://github.com/majidalykhan/mak-portfolio"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+          </div>
+
+          <div class="resume-item">
+            <h4>React Course</h4>
+            <h5>Aug 2022</h5>
+            <p>
+              <em>Course</em>
+            </p>
+            <p>
+              Learned the basics, fundamentals, hooks, context API, react
+              router, custom hooks and more in this comprehensive course.
+            </p>
+            <a
+              className="git-link"
+              href="https://github.com/majidalykhan/react-course"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
           </div>
 
           <div class="resume-item">
@@ -76,31 +116,14 @@ const Resume = () => {
               one representing the artistic style and one representing the
               content.
             </p>
-          </div>
-          <div class="resume-item">
-            <h4>Try-on Glasses</h4>
-            <h5>2020</h5>
-            <p>
-              <em>Outsource</em>
-            </p>
-            <p>
-              An android application that applies 3d models of glasses on user's
-              face. User can try on different pair of glasses with realtime face
-              tracking.
-            </p>
-          </div>
-
-          <div class="resume-item">
-            <h4>Waves Measuring Dataset Analysis</h4>
-            <h5>2019</h5>
-            <p>
-              <em>Project</em>
-            </p>
-            <p>
-              Worked on preprocessing of dataset to exclude errors or null
-              values. Used Linear Regression to train and test data for
-              prediction model. Python, Matplotlib, Pandas, Jupyter Notebook.
-            </p>
+            <a
+              className="git-link"
+              href="https://github.com/majidalykhan/PhotoFilters"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
           </div>
 
           <div class="resume-item">
