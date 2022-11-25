@@ -20,7 +20,7 @@
 
   --white-color: #ffffff;
   --off-white-color: #faf9f6;
-  
+
   --charcoal-color: #36454f;
 
   --bg-color: #f6f6f6;
@@ -30,15 +30,6 @@
   --button-hover: #faf9f6;
 
   --animated-text: #323232;
-
-  /* -------- Blue scheme ------ */
-  --heading-color: #1c3879;
-
-  --button-bg: #3f72af;
-
-  --button1-hover: #2e4c6d;
-
-  --button2-hover: var(--button1-hover);
 
   --transition: all 400ms ease;
 
@@ -89,7 +80,7 @@ section > h5 {
   color: var(--black-color);
 }
 
-section > h5{
+section > h5 {
   padding-top: 5rem;
 }
 
@@ -105,7 +96,6 @@ section > h2 {
 a {
   transition: var(--transition);
 }
-
 
 .btn {
   width: max-content;
