@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.8031ef95.css",
-    "main.js": "/react-gh-pages/static/js/main.b8178ca0.js",
-    "static/media/profile_img.jpg": "/react-gh-pages/static/media/profile_img.6d153d14ce1df085b65b.jpg",
-    "static/media/majidalykhan@gmail.com.pdf": "/react-gh-pages/static/media/majidalykhan@gmail.com.98347706e0efb7f6a74f.pdf",
-    "index.html": "/react-gh-pages/index.html",
-    "main.8031ef95.css.map": "/react-gh-pages/static/css/main.8031ef95.css.map",
-    "main.b8178ca0.js.map": "/react-gh-pages/static/js/main.b8178ca0.js.map"
+    "main.css": "/static/css/main.2ae5fc87.css",
+    "main.js": "/static/js/main.c5a2a5bd.js",
+    "static/media/profile_img.jpg": "/static/media/profile_img.6d153d14ce1df085b65b.jpg",
+    "static/media/majidalykhan@gmail.com.pdf": "/static/media/majidalykhan@gmail.com.98347706e0efb7f6a74f.pdf",
+    "index.html": "/index.html",
+    "main.2ae5fc87.css.map": "/static/css/main.2ae5fc87.css.map",
+    "main.c5a2a5bd.js.map": "/static/js/main.c5a2a5bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.8031ef95.css",
-    "static/js/main.b8178ca0.js"
+    "static/css/main.2ae5fc87.css",
+    "static/js/main.c5a2a5bd.js"
   ]
 }
